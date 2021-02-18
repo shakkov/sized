@@ -17,13 +17,12 @@
     display: grid;
     grid-template-rows: 15fr 15fr 15fr;
     grid-template-columns: 2fr 2fr;
-    /* grid-gap: .5vw; */
+    grid-gap: 1vw;
 }
 
 .grid > div {
-    font-size: 5vw;
-    padding: .5em;
     text-align: center;
+    background-color: aqua;
   }
 
   .grid img{
