@@ -4,8 +4,8 @@ const NavBar = () => {
     return (
         <div className="Nav">
             <div className="navLogo">Sized//</div>
-            <form name="search" method="post">
-                <input type="text" size="40"></input>
+            <form name="search" method="post" >
+                <input type="text" size="40" placeholder='search your new sneakers'></input>
             </form>
             <ul>
                 <li>
@@ -22,6 +22,7 @@ const NavBar = () => {
                 </li>
             </ul>
         </div>
+        
     )
 }
 

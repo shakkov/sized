@@ -29,7 +29,7 @@ function SamplePrevArrow(props) {
                 ...style,
                 display: 'block',
                 background: 'grey',
-                borderRadius: 3,
+                borderRadius: 4,
             }}
             onClick={onClick}
         />
@@ -46,7 +46,7 @@ export default class CustomArrows extends Component {
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2000,
+            autoplaySpeed: 2500,
             variableWidth: true,
             pauseOnHover: false,
             arrows: true,
