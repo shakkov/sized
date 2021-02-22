@@ -3,6 +3,8 @@ import './App.css';
 import NavBar from './components/navBar';
 import Slider from './components/slider';
 import MostPopular from './components/mostPopular';
+import Under from './components/under';
+
 
 function App() {
     return <div className="App">
@@ -10,6 +12,8 @@ function App() {
       <hr></hr>
       <Slider/>
       <MostPopular/>
+      <hr></hr>
+      <Under/>
     </div>
 }
 

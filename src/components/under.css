@@ -1,0 +1,24 @@
+.Nav-under {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 8%;
+    flex: 1 1 auto;
+}
+.Nav-under ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Nav-under li {
+    font-size: 1.3rem;
+    margin-left: 19px;
+}
+
+.navLogo-under {
+    font-size: 1.5rem;
+    font-weight: bold;
+}

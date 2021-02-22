@@ -39,7 +39,6 @@ function SamplePrevArrow(props) {
 export default class CustomArrows extends Component {
     render() {
         const settings = {
-            
             dots: true,
             infinite: true,
             speed: 500,

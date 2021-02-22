@@ -1,9 +1,4 @@
 .slider {
     padding: 2%;
-}
-
-.slick-prev:before,
-.slick-next:before {
-    font-family:initial!important;
-    color:yellow; 
+    margin-bottom: 3%;;
 }

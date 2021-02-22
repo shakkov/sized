@@ -1,12 +1,9 @@
-.mainPopular{
+.mainPopular {
     padding-top: 2%;
     padding-left: 15%;
     padding-right: 15%;
 }
 
-.name{
-    margin-bottom: 1%;;
-}
 .mainPopular p {
     margin: 0;
     font-size: 1.7rem;
@@ -20,13 +17,34 @@
     grid-gap: 1vw;
 }
 
-.grid > div {
-    text-align: center;
-    background-color: aqua;
-  }
+.item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 5%;
+    transition: box-shadow 0.2s ease-in-out;
+}
 
-  .grid img{
+.item:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.itemName {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.grid img {
     width: 100%;
     height: 100%;
-    object-fit:cover;
-  }
+    object-fit: cover;
+}
+
+.Price {
+    font-size: 1.4rem;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
