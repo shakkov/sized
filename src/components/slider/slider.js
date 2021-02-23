@@ -43,7 +43,7 @@ export default class CustomArrows extends Component {
             autoplay: true,
             autoplaySpeed: 2500,
             variableWidth: true,
-            pauseOnHover: false,
+            pauseOnHover: true,
             arrows: true,
             className: 'prev-custom',
             nextArrow: <SampleNextArrow />,

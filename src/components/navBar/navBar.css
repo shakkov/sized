@@ -39,16 +39,10 @@
     margin-right: 5px;
 }
 
-.Nav form {
-  
-    /* max-width: 50%; */
-   
-}
 
 .search{
     display: flex;
     align-items: center;
-    
 }
 
 .search button{
@@ -63,6 +57,13 @@
     border-width: 2px;
     cursor: pointer;
 }
+
 .search button:active{
-    opacity: 0.5;
+   opacity: 0.5;
+}
+
+.Brand{
+    display: flex;
+    justify-content: space-between;
+
 }

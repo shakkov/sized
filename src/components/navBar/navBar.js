@@ -18,6 +18,7 @@ const NavBar = () => {
                     Find
                 </button>
             </div>
+            <div className='Brand'> 
             <ul>
                 <li>
                     <a>Nike</a>
@@ -32,6 +33,7 @@ const NavBar = () => {
                     <a>Vans</a>
                 </li>
             </ul>
+            </div>
         </div>
     )
 }
