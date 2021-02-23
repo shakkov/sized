@@ -1,9 +1,8 @@
-import './components/navBar.css';
 import './App.css';
-import NavBar from './components/navBar';
-import Slider from './components/slider';
-import MostPopular from './components/mostPopular';
-import Under from './components/under';
+import NavBar from './components/navBar/navBar';
+import Slider from './components/slider/slider';
+import MostPopular from './components/mostComponent/mostPopular';
+import Under from './components/under/under';
 
 
 function App() {

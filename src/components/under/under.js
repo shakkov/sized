@@ -3,9 +3,9 @@ import './under.css'
 const Under = () => {
     return (
         <div className="Nav-under">
-            <div className="navLogo-under">Sized//</div>
+            <div className="navLogo-under">Sized<span style={{color: 'rgb(0, 183, 255)'}}>//</span></div>
             <ul>
-            <li>Contact us:</li>
+            <li>Contact <span style={{color: 'rgb(0, 183, 255)'}}>US</span>:</li>
                 <li>
                     <a>Instagram</a>
                 </li>

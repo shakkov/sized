@@ -1,0 +1,44 @@
+.slider {
+    padding: 2%;
+    margin-bottom: 3%;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    width: 2vmin;
+    height: 2vmin;
+    background: transparent;
+    border-top: 0.5vmin solid rgb(0, 0, 0);
+    border-right: 0.5vmin solid rgb(0, 0, 0);
+    box-shadow: 0 0 0 rgb(126, 126, 126);
+    transition: all 200ms ease;
+}
+
+.arrow.left {
+    left: -25px;
+    transform: translate3d(0, -50%, 0) rotate(-135deg);
+}
+
+.arrow.right {
+    right: -25px;
+    transform: translate3d(0, -50%, 0) rotate(45deg);
+}
+
+.arrow:hover {
+    border-color: rgb(0, 183, 255);
+    box-shadow: 0.5vmin -0.5vmin 0 rgb(126, 126, 126);
+}
+
+.arrow:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -60%) rotate(45deg);
+}
+
+
+.slick-dots li.slick-active button:before {
+    color: rgb(0, 183, 255) !important
+}

@@ -8,15 +8,13 @@ function SampleNextArrow(props) {
     const { className, style, onClick } = props
     return (
         <div
-            className={className}
+            className="arrow right"
             style={{
                 ...style,
                 display: 'block',
-                background: 'grey',
-                borderRadius: 3,
             }}
             onClick={onClick}
-        />
+        ></div>
     )
 }
 
@@ -24,15 +22,13 @@ function SamplePrevArrow(props) {
     const { className, style, onClick } = props
     return (
         <div
-            className={className}
+            className="arrow left"
             style={{
                 ...style,
                 display: 'block',
-                background: 'grey',
-                borderRadius: 4,
             }}
             onClick={onClick}
-        />
+        ></div>
     )
 }
 
@@ -49,6 +45,7 @@ export default class CustomArrows extends Component {
             variableWidth: true,
             pauseOnHover: false,
             arrows: true,
+            className: 'prev-custom',
             nextArrow: <SampleNextArrow />,
             prevArrow: <SamplePrevArrow />,
         }

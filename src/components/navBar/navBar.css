@@ -34,5 +34,35 @@
     font-size: 20px;
     height: 60%;
     outline: none;
-    width: 50%;
+    border-style: solid;
+    border-width: 2px;
+    margin-right: 5px;
+}
+
+.Nav form {
+  
+    /* max-width: 50%; */
+   
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    
+}
+
+.search button{
+    font-size: 20px;
+    height: 60%;
+    outline: none;
+    /* width: 50%; */
+    border-color: rgb(0, 183, 255);
+    background-image: none; 
+    background-color: transparent; 
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+}
+.search button:active{
+    opacity: 0.5;
 }
