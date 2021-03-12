@@ -16,12 +16,12 @@
 }
 
 .arrow.left {
-    left: -25px;
+    left: -22px;
     transform: translate3d(0, -50%, 0) rotate(-135deg);
 }
 
 .arrow.right {
-    right: -25px;
+    right: -22px;
     transform: translate3d(0, -50%, 0) rotate(45deg);
 }
 
